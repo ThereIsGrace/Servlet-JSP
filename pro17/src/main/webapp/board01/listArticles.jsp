@@ -38,7 +38,7 @@
 		<c:forEach var="article" items="${articlesList}" varStatus="articleNum">
 			<tr>
 				<td width="5%">${articleNum.count}</td>
-				<td width="10%">${airticle.id }</td>
+				<td width="10%">${article.id}</td>
 				<td align='left' width="35%">
 					<span style="padding-right:30px"></span>
 					<c:choose>
